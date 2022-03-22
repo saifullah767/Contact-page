@@ -1,17 +1,39 @@
 .contact {
-  background-color: #6070ff;
-  background-image: url(./image/contactbackgroung.png);
-  background-size: 60% 700px;
-  background-repeat: no-repeat;
-  background-position-x: right;
-  border-radius: 60px 0px 0px 0px;
-  height: 779px;
-  width: 375px;
-  font-family: "Poppins", sans-serif;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 10px;
+    background-color: #6070ff;
+    background-image: url(./image/contactbackgroung.png);
+    background-size: 60% 700px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    border-radius: 60px 0px 0px 0px;
+    height: 779px;
+    width: 375px;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+h2{
+color: white;
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 52px;
+align-items: center;
+text-align: center;
+margin: 10px 0px 0px 0px;
+}
+
+p{
+  color: white;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  align-items: center;
+  width: 90%;
+  margin-left: 10px;
 }
 form{
     display: flex;
